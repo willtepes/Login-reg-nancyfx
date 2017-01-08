@@ -1,0 +1,29 @@
+{
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "copyToOutput": ["Views/Login/*"],
+    "debugType": "portable"
+  },
+  "dependencies": {
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
+    "Microsoft.AspNetCore.Owin": "1.0.0",
+    "Nancy": "2.0.0-barneyrubble",
+    "Microsoft.NETCore.App": {
+        "version": "1.0.0",
+        "type": "platform"
+    },
+    "Microsoft.Extensions.Logging.Console": "1.0.0",
+    "Nancy.Session.InMemory": "0.9.1-pre",  
+    "Nancy.Session.Persistable": "0.9.1-pre", 
+    "FSharp.Core": "4.0.1.7-alpha",
+    "Newtonsoft.Json": "9.0.1",
+    "MySqlConnector": "0.1.0-alpha12",
+    "CryptoHelper": "2.0.0" // This is our cryptography package
+  },
+  "tools": {
+    "Microsoft.DotNet.Watcher.Tools": "1.0.0-preview2-final"
+},
+  "frameworks": {
+    "netcoreapp1.0": {}
+  }
+}

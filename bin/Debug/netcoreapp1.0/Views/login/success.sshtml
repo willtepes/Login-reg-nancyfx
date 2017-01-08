@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Success Page</title>
+    <style media="screen">
+      .green{
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Success! Welcome, user of id @ViewBag.id !</h1>
+    <p class='green'>You have successfully logged in!</p>
+  </body>
+</html>
